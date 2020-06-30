@@ -2,7 +2,7 @@ FROM alpine:3.8
 LABEL maintainer="Vladimir Stafievsky <vladimir.stafievsky@protocol.one>"
 
 ENV KUBECTL_VERSION v1.12.2
-ENV HELM_VERSION 2.11.0
+ENV HELM_VERSION 2.16.9
 ENV HELM_FILENAME helm-v${HELM_VERSION}-linux-amd64.tar.gz
 
 RUN apk add --no-cache --virtual .deps curl bash
